@@ -94,6 +94,7 @@ hr
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+    margin-bottom: 20px;
 }
 
 /*diseño un boton al texto aprender mas */
@@ -120,3 +121,37 @@ hr
     margin-bottom: 10px;
 }
 
+
+/*Seccion Noticias*/
+/*doy la forma de tarjeta*/
+.news-cards
+{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin:10px 0
+}
+/*achico la imagen*/
+.news-cards img
+{
+    width:100%;
+    height: 150px;
+    
+}
+/*tarbajo el titulo*/
+.news-cards h3
+{
+    font-size: 20px;
+    margin:10px 0;
+}
+
+.news-cards a 
+{
+    padding: 10px 0;
+    color: #f2f2f2;
+    text-transform: uppercase;
+}
+.news-cards a:hover
+{
+    text-decoration: underline;
+}
