@@ -156,12 +156,12 @@ hr
     text-decoration: underline;
 }
 
-/*Baner*/
+/*Baner 1*/
 .cards-banner-one
 {
     width: 100%;
     height: 350px;
-    background: url(./Img/tech-red.jpg);
+    background: url(./Img/tech-red.jpg)no-repeat center center/cover;
     margin-bottom: 40px;
 }
 
@@ -171,3 +171,19 @@ hr
     padding: 90px 0 0 30px;
     color: white;
 }
+/*Baner 2*/
+.cards-banner-two
+{
+    width: 100%;
+    height: 350px;
+    background: url(./Img/image-five.jpg) no-repeat center center/cover;
+    margin-bottom: 40px;
+}
+
+.cards-banner-two .content
+{
+    width: 40%;
+    padding: 90px 0 0 30px;
+    color: white;
+}
+
