@@ -74,7 +74,7 @@ ul {
     top: 15px;
     right: 30px;
     z-index: 2;
-    font-size: 1.8rem;
+    display: none;
 }
 
 
@@ -273,6 +273,12 @@ hr {
     en el footer con links tambien hago lo mismo que con las noticias */
 
 @media(max-width: 700px) {
+    .menu-btn {
+        display: block;
+    }
+    .menu-btn:hover {
+        opacity: 0.5;
+    }
     .nav-main ul.nav-menu {
         display: block;
         position: absolute;
