@@ -79,6 +79,10 @@ ul
 
 
 /*Cabecera*/
+hr
+{
+    margin : 10px 0
+}
 /*coloco la imagen y el texto alinado debajo d ela imagen*/
 .showcase
 {
@@ -110,5 +114,9 @@ ul
 {
     opacity: .3;
 }
-
+.showcase h2,
+.showcase p 
+{
+    margin-bottom: 10px;
+}
 
